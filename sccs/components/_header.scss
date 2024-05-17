@@ -1,0 +1,27 @@
+.header {
+    height: 80px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 95px;
+
+    &-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-list {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        width: 50vw;
+    }
+
+    &-link {
+        text-decoration: none;
+        color: var(--link-color);
+        font-size: 14px;
+
+        &:hover {
+            color: var(--link-hover-color);
+        }
+    }
+}

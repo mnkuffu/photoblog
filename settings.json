@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveSassCompile.settings.generateMap": false, // вимикаємо генерацію карти стилів
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded", // розширений, або стиснутий формат стилів
+            "autoprefix": "last 5 versions", // компілятор буде додавати префікси кросбраузерності для останніх 5 версій відомих браузерів
+            "extensionName": ".css", // розширення вихідного файлу
+            "savePath": "css" // папка, у яку буде компілюватись файл стилів
+        }
+    ],
+}

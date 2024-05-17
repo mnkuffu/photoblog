@@ -1,0 +1,42 @@
+.photoblog {
+    width: 906px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 65px;
+    row-gap: 130px;
+    margin-bottom: 95px;
+
+    &-card {
+        width: 420px;
+    }
+
+    &-img {
+        height: 280px;
+        width: 420px;
+        margin-bottom: 60px;
+    }
+
+    &-text1 {
+        font-family: "Ubuntu", serif;
+        font-weight: 100;
+        color: var(--text1-color);
+        margin-bottom: 45px;
+    }
+
+    &-text2 {
+        color: var(--text2-color);
+    }
+
+    &-title {
+        font-size: 30px;
+        color: var(--text2-color);
+        margin-bottom: 50px;
+    }
+
+    &-button {
+        color: var(--text2-color);
+        height: 60px;
+        width: 165px;
+        background-color: white;
+    }
+}
